@@ -9,7 +9,7 @@ import sdk from "./1-initialize-sdk.js";
             primary_sale_recipient: AddressZero,
         });
         console.log(
-            "✅ Successfully deployed token module, address:", tokenAddress
+            "✅ Successfully deployed token module, address:", tokenAddress,
         );
     } catch (error) {
         console.error("failed to deploy token module", error);
